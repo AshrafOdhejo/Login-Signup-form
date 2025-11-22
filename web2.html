@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <title> LOGIN FORM </title>
+
+<style>
+   .logform{
+    background-color: rgb(253, 253, 233);
+    margin: 60px;
+       
+   }
+   .box{
+    width: 400px;
+    height: 430px;
+    border: 2px solid black;
+
+   }
+   .bound{
+        display: inline-block;
+        width: 230px;
+        height: 290px;
+   }
+   .boxsize{
+    height: 20px; 
+    border-radius: 5px; 
+    border: 1px solid rgb(59, 57, 57);
+   }
+
+</style>
+
+</head>
+<body style="display: flex;">
+    <div class="box">
+        <div class="logform" style="display: inline-block">
+            <fieldset class="bound">
+                <legend> Login Form </legend>
+                
+                <form>
+                <div style="padding-left: 55px">
+                    <p> Welcome Back!</p>
+                </div>
+                <div style="padding-left: 25px;">
+                    <br/>
+                    <input type="text" id="email" placeholder="Email Address" class="boxsize">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input type="text" id="pass" placeholder="Enter your Password" class="boxsize">
+                    <br/>
+                    <br/>
+                    <input type="checkbox" id="select">
+                    <label for="select" style="font-size:small"> Remember me </label>
+                    <br/>
+                </div>
+                <div style="padding-left: 80px;">
+                    <br/>
+                    <input style="background-color:rgb(78, 93, 209); color:white; border: 1px solid black; border-radius: 7px; width: 60px; height: 20px;" type="submit" value="Login">
+                </div>
+                
+                <p style="font-size: 0.7rem; padding-left: 40px;">Not a memeber? <a href="#" style="text-decoration: none;"> Signup now</a></p>
+                </form>
+                
+            </fieldset>
+        </div>
+    </div>    
+&nbsp; &nbsp;
+
+    <div class="box">
+        <div class="logform" style="display: inline-block">
+            <fieldset class="bound">
+                <legend> Signup Form </legend>
+                
+                <form>
+                <div style="padding-left: 25px; padding-top: 30px;">
+                    <input type="text" id="email" placeholder="Email Address" class="boxsize">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input type="text" id="pass" placeholder="Create Password" class="boxsize">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <input type="text" id="pass" placeholder="Confirm Password" class="boxsize">
+                    <br/>
+                    <br/>
+                </div>
+                <div style="padding-left: 80px;">
+                    <br/>
+                    <input style="background-color:rgb(78, 93, 209); color:white; border: 1px solid black; border-radius: 7px; width: 60px; height: 20px;" type="submit" value="Signup">
+                </div>
+                
+                <p style="font-size: 0.7rem; padding-left: 30px;">Already have an account? <a href="#" style="text-decoration: none;"> Login Here</a></p>
+                </form>
+                
+            </fieldset>
+        </div>
+    </div>    
+</body>
+</html>
